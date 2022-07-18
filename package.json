@@ -1,0 +1,22 @@
+{
+  "name": "hapi-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "eslint": "^8.20.0",
+    "@eslint/create-config": "^0.3.0",
+    "eslint-config-airbnb-base": "^15.0.0"
+  }
+}
